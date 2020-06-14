@@ -541,10 +541,13 @@ footer {
 }
 .project {
   display: inline-block;
+  position: relative;
   width: 380px;
   margin-right: 30px;
   margin-bottom: 30px;
-  position: relative;
+
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .project:hover {
   border: 1px solid #eeeeee;
